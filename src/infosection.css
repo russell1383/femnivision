@@ -20,10 +20,11 @@
     border-bottom: 1px;
 }
 .hero-title{
-    color: #540553;
+    background:  linear-gradient(to left, #4568dc, #b06ab3);
     margin-top: 1.5rem;
     font-size: 2.5rem;
-   
+   border-radius:5px;
+   color: #f1f1f1;
     
 }
 .hero-title::before {
@@ -33,10 +34,11 @@
     align-content: center;
     left: 0;
     bottom: -10px;
-    background-color: #972853;
+    background:  linear-gradient(to right, #4568dc, #b06ab3) ;
     height: 2px;
     box-sizing: border-box;
     width: 100%;
+   
   }
 .blog-title{
     /*color: #b97fb8;*/
@@ -56,8 +58,9 @@
     /*padding-bottom: 2rem;*/
 }
 .send-button{
-    background-color: #540553;
+    background:linear-gradient(to left, #4568dc, #b06ab3) ;
     color: #ffffff;
+    border: none;
 }
 .contact-text{
     padding-left: 100px;
@@ -86,7 +89,7 @@
 }
 a{
     text-decoration: none !important;
-    color: #540553;
+    color: #1a1819;
 }
 .str{
     font-size: 30px;
@@ -94,6 +97,9 @@ a{
 }
 .paragraph{
     text-align: justify;
+}
+span{
+    color: #b06ab3;
 }
 
 @media screen and (max-width: 768px) {

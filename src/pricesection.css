@@ -32,7 +32,7 @@ a {
 }
 
 .pricingTable:hover .pricingTable-header {
-  background: #bb2685 
+  background: linear-gradient(to left, #4568dc, #b06ab3) 
 }
 
 .pricingTable .pricingTable-header i {
@@ -44,7 +44,7 @@ a {
 
 .pricingTable .price-value {
   font-size: 35px;
-  color: #bb2685 ;
+  color: #b06ab3 ;
   transition: all .5s ease 0s
 }
 
@@ -62,7 +62,7 @@ a {
 
 .pricingTable .heading {
   font-size: 20px;
-  color: #bb2685 ;
+  color: #b06ab3 ;
   margin-top: 5px;
   margin-bottom: 15px;
   text-transform: uppercase
@@ -87,7 +87,7 @@ padding-right: 20px;
   color: #fff;
   padding: 10px 35px;
   border-radius: 20px;
-  background: #bb2685 ;
+  background: linear-gradient(to left, #4568dc, #b06ab3) ;
   text-transform: uppercase;
   transition: all .3s ease 0s
 }
@@ -103,7 +103,7 @@ padding-right: 20px;
 
 .pricingTable.blue .pricingTable-signup a,
 .pricingTable.blue:hover .pricingTable-header {
-  background: #bb2685
+  background: linear-gradient(to left, #4568dc, #b06ab3)
 }
 
 .pricingTable.blue .pricingTable-signup a:hover {
@@ -215,7 +215,7 @@ padding-right: 20px;
    font-weight: 600;
   }
   .card-head-bg{
-    background-color: #bb2685  !important;
+    background: linear-gradient(to left, #4568dc, #b06ab3)  !important;
     padding-bottom: 3rem;
   }
 .white-mode{

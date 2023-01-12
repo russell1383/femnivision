@@ -16,7 +16,7 @@ function View( props) {
   const [index, setIndex] = useState(0)
 
   useEffect(()=>{
-    Aos.init({duration:2000})
+    Aos.init({duration:2500})
   },[])
 
   useEffect(()=>{
@@ -41,7 +41,7 @@ function View( props) {
   
   <section   className='section'>
     <div className="title">
-      <h2 className="hero-title">How my therapy work</h2>
+      <h2 data-aos="fade-left" className="hero-title">How Does It Work !</h2>
     </div>
     <div data-aos="fade-up"  className="section-center">
       {people.map((item, key)=>{

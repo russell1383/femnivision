@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c3d418d5.css",
+    "main.js": "/static/js/main.cb3b5592.js",
+    "static/js/787.a526ec4b.chunk.js": "/static/js/787.a526ec4b.chunk.js",
+    "static/media/Famnivision.mp4": "/static/media/Famnivision.6961612704333c55b3a7.mp4",
+    "static/media/cyber.jpg": "/static/media/cyber.e2f72c58aca1a96859e8.jpg",
+    "static/media/step4.jpg": "/static/media/step4.a472311cca78db8d7dbf.jpg",
+    "static/media/app.jpg": "/static/media/app.254bc07adf50aaf69c59.jpg",
+    "static/media/step1.jpg": "/static/media/step1.222b006c0e064d525fcb.jpg",
+    "static/media/digital.jpg": "/static/media/digital.d90dca9830ec2dfd09d9.jpg",
+    "static/media/step3.jpg": "/static/media/step3.1fd57a0e11aa5801e741.jpg",
+    "static/media/service1.jpg": "/static/media/service1.c00e099473b818901822.jpg",
+    "static/media/step2.jpg": "/static/media/step2.e04032360d6acfac46cb.jpg",
+    "static/media/sdf.jpg": "/static/media/sdf.7db70be7aaf70bdc24fc.jpg",
+    "static/media/femnivision.JPG": "/static/media/femnivision.695059c52b21562e174a.JPG",
+    "static/media/diane.jpg": "/static/media/diane.1c926a066b323c08f3f5.jpg",
+    "static/media/femnivision2.JPG": "/static/media/femnivision2.020b6c10c9020c96d266.JPG",
+    "static/media/am1.JPG": "/static/media/am1.f08cad401e07a1978bbc.JPG",
+    "index.html": "/index.html",
+    "main.c3d418d5.css.map": "/static/css/main.c3d418d5.css.map",
+    "main.cb3b5592.js.map": "/static/js/main.cb3b5592.js.map",
+    "787.a526ec4b.chunk.js.map": "/static/js/787.a526ec4b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c3d418d5.css",
+    "static/js/main.cb3b5592.js"
+  ]
+}

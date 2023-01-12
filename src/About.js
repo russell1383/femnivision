@@ -1,6 +1,6 @@
 import React from "react";
-import image from "../src/image/image1.jpg";
-import imageTwo from "../src/image/sadia.jpg";
+import image from "../src/image/diane.jpg";
+
 import "./about.css";
 function About() {
   return (
@@ -11,57 +11,40 @@ function About() {
       <div className="content row">
         <div className="imagecolum col-md-6 col-sm-12">
           <img className="shadow anim mb-3 img-fluid" src={image} alt="" />
-          <img className="shadow anim mb-3 img-fluid" src={imageTwo} alt="" />
+        
         </div>
         <div className="col-md-6 col-sm-12">
           <p className="text-justify">
             <strong>
               {" "}
-              Hello, I am Sadia Afrin, a qualified Clinical Solution Focused
-              Hypnotherapist based in the UK. I pride myself on being passionate
-              about making positive changes in people’s lives. From childhood, I
-              have wanted to soothe the troubles of the people around me,
-              whether it be my siblings, friends, or others.
+              Certified HYPNOTHERAPIST, RTT PRACTITIONER AND PROFESSIONAL COACH
+Diane is a solution-focused hypnotherapist and coach with Rapid Transformation therapy and EFT skills to uncover the root causes of limiting beliefs that cause specific issues concerns.  She uses a 3 step Joy Acceleration Program that removes old looping thoughts and replaces them with positive transformational thoughts.
+
             </strong>
             <br />
             <br />
-            Interestingly enough, I had never planned to go into Hypnotherapy as
-            a career. Prior, I had a successful career in customer service in
-            financial institutions for eight years, but I always felt as though
-            there was something missing. My soul was not connected to the job I
-            was doing. A few years back I had some severe issues in my personal
-            life and I needed help to manage my anxiety and depression. Not all
-            therapies are for everyone and thus the conventional therapies did
-            not work for me. Eventually, through my own research, I discovered
-            hypnosis as an option. By utilising the wonderful experience of
-            self-hypnosis to help me manage my emotions, I was able to gain
-            control of my life again. I was completely fascinated by the power
-            of hypnosis and the connection between it and the subconscious mind.
-            From then, I decided to learn about Hypnotherapy and learn about the
-            mechanisms behind it. That was the turning point of my career. I
-            chose to chase a passion that, for me, provided more purpose,
-            self-fulfilment, and job satisfaction.
+            <strong>ABOUT EFT</strong> <br />
+            
+Emotional Freedom Technique also known as tapping is a powerful stress relief technique base on the combined principles of accupressure and psychology.
+
             <br />
             <br />
-            Neuroscience research continues to support the theory behind the use
-            of hypnotherapy as a way of changing the brain and moving clients
-            forward in their lives. Solution-Focused Hypnotherapy in particular
-            appealed to me due to its basis in science, and the focus on the way
-            the brain can create new pathways to facilitate novel ways of
-            thinking. Therefore, my supportive client-led therapy sessions
-            barely focus on past problems and negative experiences which allows
-            for less fear-driven stagnation and more motivation-driven
-            solutions. That is the beauty of Solution-Focused Hypnotherapy. I
-            find the most interesting and significant aspect of what I do is
-            enabling clients to realise their inner gifts and positive
-            attributes, which may have been unnoticed for a long time. My dream
-            is to live in a world where mental health does not hinder people’s
-            abilities to live vigorous and fulfilling lives, and I am ready to
-            fully dedicate my efforts to make that happen.
+            <strong>ABOUT RTT</strong> <br />
+            
+Rapid Transformational Therapy helps the client understand where the issue they have originated by finding root causes of the issue.
+
             <br />
+            <br/>
+            <strong>ABOUT HYPNOTHERAPY</strong> <br />
+            
+The practice of using the power of uggestion to bring about positive change in clients who are under deep relaxation.  This state of awareness that is different from the ordinary state of consciousness.
+
             <br />
-            <strong> My qualification and training:</strong>
-            <br />I trained with the prestigious Clifton Practice Hypnotherapy
+            <br/>
+            <strong> I’m a strong believer that you can only change what you understand.
+The secret to completely healing your body and mind is to uncover the reason for the wrong beliefs that you have acquired in the past.  I will help you uncover and change those beliefsso they will never affect you again.
+</strong>
+            <br />
           </p>
         </div>
       </div>

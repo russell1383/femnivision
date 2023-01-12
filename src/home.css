@@ -34,7 +34,7 @@
 }
 .home-button::after {
   color: #ffffff !important;
-    background-color:rgb(213 70 0);
+    background:linear-gradient(to right, #4568dc, #b06ab3);;
     border-radius: 5px;
     content: '';
     display: block;

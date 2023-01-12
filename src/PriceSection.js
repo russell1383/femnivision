@@ -38,7 +38,7 @@ const PriceSection = () => {
             </div>
 
             <div class="col-md-3 col-sm-6">
-                <div class="pricingTable green">
+                <div class="pricingTable ">
                     <div class="pricingTable-header">
                     <i class="fa-solid fa-face-grimace"></i>
                         <div class="price-value"> $20.00 <span class="month">per month</span> </div>
@@ -56,7 +56,7 @@ const PriceSection = () => {
                 </div>
             </div>
             <div class="col-md-3 col-sm-6">
-                <div class="pricingTable blue">
+                <div class="pricingTable ">
                     <div class="pricingTable-header">
                     <i class="fa-solid fa-face-tired"></i>
                         <div class="price-value"> $30.00 <span class="month">per month</span> </div>
@@ -75,7 +75,7 @@ const PriceSection = () => {
                 </div>
             </div>
             <div class="col-md-3 col-sm-6">
-                <div class="pricingTable red">
+                <div class="pricingTable ">
                     <div class="pricingTable-header">
                     <i class="fa-solid fa-face-smile-beam"></i>
                         <div class="price-value"> $40.00 <span class="month">per month</span> </div>

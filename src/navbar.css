@@ -20,8 +20,9 @@
 .nav-item a:hover {
   color: #fff !important;
   /* padding: 5px 8px !important; */
-  background: #540553 !important;
+  background: #b06ab3 !important;
   border-radius: 5px;
+  padding-top: 8px;
 }
 
 .navbar-brand {
@@ -42,6 +43,7 @@
   font-style: inherit;
   border: 0;
   outline: 0;
+  transition: all 0.3s ease !important;
 }
 .contact-button {
   display: flex;
@@ -73,7 +75,7 @@
 
   color: #fff !important;
   
-  background: #540553 !important;
+  background: #b06ab3 !important;
   border-radius: 5px;
 }
 /* #nav-link.active {

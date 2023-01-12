@@ -357,7 +357,7 @@ label {
   position: absolute;
   left: 0;
   bottom: -10px;
-  background-color: #972853;
+  background: linear-gradient(to left, #4568dc, #b06ab3);
   height: 2px;
   box-sizing: border-box;
   width: 50px;
@@ -393,7 +393,7 @@ label {
 }
 .footer-col .social-links a:hover {
   color: #f0ecec;
-  background-color: #540553;
+  background: linear-gradient(to left, #4568dc, #b06ab3);
 }
 .social-links {
   margin-left: 15px;
@@ -510,10 +510,10 @@ label {
 }
 
 .service-text-h {
-  font-family: "Yesteryear", cursive;
+  /* font-family: "Yesteryear", cursive; */
   font-size: 50px;
   font-weight: 500;
-  color: #540553;
+  color: #b06ab3;
   text-shadow: #972853;
 }
 .service-text-p {
@@ -524,8 +524,8 @@ section {
 }
 .faqs {
   margin-top: 10px;
-  font-family: "Yesteryear", cursive;
-  color: #540553;
+  /* font-family: "Yesteryear", cursive; */
+  color:  #b06ab3 ;
 }
 .date .mbsc-button-icon .mbsc-ltr .mbsc-icon .mbsc-ios {
   color: red;
@@ -553,8 +553,8 @@ section {
   font-size: 30px !important;
 }
 .sub-button {
-  background-color: #540553  !important;
-  border-color: #540553  !important;
+  background: linear-gradient(to left, #4568dc, #b06ab3)   !important;
+ border: none !important;
 }
 
 @media (max-width: 768px) {

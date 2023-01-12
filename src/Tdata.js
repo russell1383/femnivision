@@ -1,36 +1,36 @@
-import img1 from "../src/image/3.jpg";
-import img2 from "../src/image/4.jpg";
-import img3 from "../src/image/6.jpg";
-import img4 from "../src/image/21.jpg";
+import img1 from "../src/image/step1.jpg";
+import img2 from "../src/image/step2.jpg";
+import img3 from "../src/image/step3.jpg";
+import img4 from "../src/image/step4.jpg";
 
 const Tdata = [
   {
     id: 1,
     img: img1,
-    name: "Coping Skill",
+    name: "Step 1",
     testimoni:
-      "You may be taught certain cognitive-behavioral coping skills.",
+      " Free No-Obligation 20 Minute Discovery Zoom Call tosee if we are a fit for each other.",
   },
   {
     id: 2,
     img: img2,
-    name: "Suggestion",
+    name: "Step 2",
     testimoni:
-      "Trust yourself and your ability to get through the situation.",
+      "Hypnotherapy Session 1.5-2 hoursTrust yourself and your ability to get through the situation.",
   },
   {
     id: 3,
     img: img3,
-    name: "Relaxation",
+    name: "Step 3",
     testimoni:
-      "When confronting a problematic behavior or the object of your fears",
+      "Custom Hypnotherapy Voice Recording and Optional Video Deepener "
   },
   {
     id: 4,
     img: img4,
-    name: "Exploration of Past",
+    name: "Step 4",
     testimoni:
-      "You are trying to overcome and how you felt at that moment.",
+      "Post Session Follow-up 10 day follow-up and 21 day check-in call",
   },
 ];
 export default Tdata;
