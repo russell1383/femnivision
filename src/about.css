@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+
+#about-content{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#about-content #img-id{
+    padding-right: 20px;
+    width: 600px;
+    height: auto;
+    position: relative;
+ 
+}
+.content p {
+    font-family: 'Mukta', sans-serif;
+    text-align: justify;
+}
+
+.imagecolum img {
+    border-radius: 5px;
+    box-shadow: ;
+}
