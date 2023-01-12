@@ -288,6 +288,7 @@ label {
   pointer-events: none;
   transition: 0.5s;
   color: #666;
+  font-weight: 500;
 }
 .contactForm .inputBox input:focus ~ span,
 .contactForm .inputBox textarea:focus ~ span {
