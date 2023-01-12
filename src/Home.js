@@ -167,15 +167,22 @@ function Home({ slides }) {
                         >
                           LIMITING BELIEFS WITH DIANE
                         </h1>
-                        <h3
-                          data-aos="fade-up"
-                          data-aos-duration="4000"
-                          className="homePage-title"
+                        <ul>
+                          <li
+                          data-aos="fade-left"
+                          data-aos-duration="3000"
+                          className="liTitle"
                         >
-                          Certified Professional Coach Certified Rapid
-                          Transformational Therapy Practitioner Emotional
-                          Freedom Tapping Technique
-                        </h3>
+                          Certified Professional Coach  
+                        </li>
+                        <li data-aos="fade-left"
+                          data-aos-duration="2000" className="liTitle">Certified Rapid
+                          Transformational Therapy Practitioner</li>
+                        <li data-aos="fade-left"
+                          data-aos-duration="1000" className="liTitle">Emotional
+                          Freedom Tapping Technique</li>
+                          </ul>
+                        
                       <Button
                         data-aos="fade-right"
                         data-aos-duration="7000"
@@ -185,6 +192,18 @@ function Home({ slides }) {
                         FREE DISCOVERY CALL
                       </Button>
                     </Content>
+                    <div data-aos="fade-left"  className="logosec">
+                        <ul   >
+                        <li  >
+                           <img className="logoimg" src={slide.logo1} alt="" />
+                        </li>
+                        <li  >
+                          <img className="logoimgtwo" src={slide.logo2} alt="" />
+                        </li>
+                      
+                       
+                      </ul>
+                      </div>
                   </div>
                 )}
               </Slide>

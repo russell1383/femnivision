@@ -1,6 +1,8 @@
 // import videoOne from './image/video1.mp4'
 // import videoTwo from './image/video2.mp4'
 import videoThree from './image/Famnivision.mp4'
+import logo1 from './image/rtt1.png'
+import logo2 from './image/rtt2.png'
 export const SliderData =[
 // {
 //    title:'love sees no gender',
@@ -25,7 +27,9 @@ export const SliderData =[
    path:'/homes',
    lavel:'Contact me',
    video: videoThree,
-   alt:'relax'
+   alt:'relax',
+   logo1,
+   logo2
 },
 
 
