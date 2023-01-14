@@ -74,7 +74,9 @@ function Footer() {
               </div>
             </div>
            
-          </div> <h5 className="rights">© Design and developed by <strong> <a href="https://primex-bd.com/#home">primex</a>  </strong>  information systems</h5>
+          </div>
+          <h5 className="reserved">© all rights reserved by Diane Bextor-femnivision.com 2023</h5>
+           <h5 className="rights">Design & Developed by  <a href="https://primex-bd.com/#home">Primex</a>  Information Systems Limited</h5>
         </div>
       </footer>
     </>
