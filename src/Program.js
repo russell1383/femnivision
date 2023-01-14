@@ -21,14 +21,14 @@ function Program() {
   }, []);
   return (
     <>
-      <section className="section mb-5 pb-2 pt-5">
-        <div className="container">
-          <div className="row">
-            <div className="col-12">
-              <h2 className="text-center service-text-h hero-title">
+      <section className="section mb-5 pb-2 pt-5"> <h2 className="text-center service-text-h hero-title solution-text">
                 {" "}
                 Need a solution
               </h2>
+        <div className="container">
+          <div className="row">
+            <div className="col-12">
+             
               <p className="text-center service-text-p">Explore my programs</p>
             </div>
           </div>

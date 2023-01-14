@@ -23,10 +23,23 @@
     background:  linear-gradient(to left, #4568dc, #b06ab3);
     margin-top: 1.5rem;
     font-size: 2.5rem;
-   border-radius:5px;
+   /* border-radius:5px; */
+  
+
    color: #f1f1f1;
     
 }
+.contact-img{
+
+    width: 100%;
+    height: auto;
+    
+}
+.contact-title{
+     width: auto; 
+     
+}
+
 .hero-title::before {
     content: "";
     position: fixed;
@@ -100,6 +113,9 @@ a{
 }
 span{
     color: #b06ab3;
+}
+.img-fluid{
+    margin-top: 25px;
 }
 
 @media screen and (max-width: 768px) {

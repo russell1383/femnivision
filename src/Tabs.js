@@ -49,7 +49,7 @@ function Tabs() {
           <div
             className={toggleState === 1 ? "content  active-content" : "content"}
           >
-            <h2>Weight Management</h2>
+           
             <hr />
             <div class="accordion" id="accordionExample">
   <div class="accordion-item">
@@ -100,7 +100,7 @@ These disorders are described in the American Psychiatric Association’s Diagno
           <div
             className={toggleState === 2 ? "content  active-content" : "content"}
           >
-            <h2>Relationships</h2>
+         
             <hr />
             <div class="accordion" id="accordionExample">
   <div class="accordion-item">
@@ -152,7 +152,7 @@ These disorders are described in the American Psychiatric Association’s Diagno
           <div
             className={toggleState === 3 ? "content  active-content" : "content"}
           >
-            <h2>Self Esteem</h2>
+ 
             <hr />
             <div class="accordion" id="accordionExample">
   <div class="accordion-item">

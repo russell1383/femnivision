@@ -25,7 +25,7 @@ function Footer() {
               <h4>Company</h4>
               <ul>
                 <li>
-                  <Link to={"/about"}><a href="">about</a></Link>
+                  <Link to={"/terms"}><a href="">t&c policy</a></Link>
                   
                 </li>
                 {/* <li>
@@ -51,7 +51,7 @@ function Footer() {
                 </li> */}
                 <li>
                   <Link to={""}>
-                    <a href="">payment options</a>{" "}
+                    <a href="">t&s policy</a>{" "}
                   </Link>
                 </li>
               </ul>
@@ -73,7 +73,8 @@ function Footer() {
                 </a>
               </div>
             </div>
-          </div>
+           
+          </div> <h5 className="rights">© Design and developed by <strong> <a href="https://primex-bd.com/#home">primex</a>  </strong>  information systems</h5>
         </div>
       </footer>
     </>
