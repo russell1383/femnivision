@@ -89,3 +89,12 @@ li::marker{
   .active-content {
     display: block;
   }
+  .accoricon{
+    font-size: 25px;
+    margin-right: 3px;
+    
+  }
+  .accordion-button:not(.collapsed) {
+    color: #fbfbff;
+    background-color: #8c84e4;
+}

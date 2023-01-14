@@ -11,7 +11,7 @@ import Contact from "./Contact";
 import InfoSection from "./InfoSection";
 import WelcomeNote from "./WelcomeNote";
 import { InfoData, InfoDataTwo } from "./InfoData";
-import View from "./viewSection/View";
+// import View from "./viewSection/View";
 import ClientReview from "./ClientReview";
 import ScrollToTop from "./ScrollToTop";
 import Aos from "aos";
@@ -19,7 +19,8 @@ import "aos/dist/aos.css";
 import PriceSection from "./PriceSection";
 import AnimatedText from "react-animated-text-content";
 // import AudioSection from "./AudioSection";
-
+import Stepper from "./Stepper";
+// import TimeLine from "./TimeLine";
 const Wrapper = styled.div`
   width: 100%;
   height: 100vh;
@@ -122,38 +123,20 @@ function Home({ slides }) {
         <Wrapper>
           {slides.map((slide, index) => {
             return (
-              <Slide key={index}>
-                {index === current && (
-                  <div className="slider">
-                    {/* <Image src={slide.video} alt={slide.alt}  /> */}
-                    <video autoPlay loop muted className="video-back">
-                      <source
-                        src={slide.video}
-                        alt={slide.alt}
-                        type="video/mp4"
-                      />
-                    </video>
-                    <Content>
-                      <AnimatedText
-                        type="words" // animate words or chars
-                        animation={{
-                          x: "200px",
-                          y: "-20px",
-                          scale: 1.1,
-                          ease: "ease-in-out",
-                        }}
-                        animationType="light"
-                        interval={0.06}
-                        duration={0.8}
-                        tag="p"
-                        className="animated-paragraph"
-                        includeWhiteSpaces
-                        threshold={0.1}
-                        rootMargin="20%"
-                      >
-                       
-                      </AnimatedText>
-                      <h2
+              <>
+                <Slide key={index}>
+                  {index === current && (
+                    <div className="slider">
+                      {/* <Image src={slide.video} alt={slide.alt}  /> */}
+                      <video autoPlay loop muted className="video-back">
+                        <source
+                          src={slide.video}
+                          alt={slide.alt}
+                          type="video/mp4"
+                        />
+                      </video>
+                      <Content className="home-content">
+                        <h2
                           data-aos="fade-up"
                           data-aos-duration="2000"
                           className="homePage-title common"
@@ -167,46 +150,35 @@ function Home({ slides }) {
                         >
                           LIMITING BELIEFS WITH DIANE
                         </h1>
-                        <ul>
-                          <li
-                          data-aos="fade-left"
-                          data-aos-duration="3000"
-                          className="liTitle"
-                        >
-                          Certified Professional Coach  
-                        </li>
-                        <li data-aos="fade-left"
-                          data-aos-duration="2000" className="liTitle">Certified Rapid
-                          Transformational Therapy Practitioner</li>
-                        <li data-aos="fade-left"
-                          data-aos-duration="1000" className="liTitle">Emotional
-                          Freedom Tapping Technique</li>
-                          </ul>
-                        
-                      <Button
-                        data-aos="fade-right"
-                        data-aos-duration="7000"
-                        className="home-button"
-                        to={"/contact"}
-                      >
-                        FREE DISCOVERY CALL
-                      </Button>
-                    </Content>
-                    <div data-aos="fade-left"  className="logosec">
-                        <ul   >
-                        <li  >
-                           <img className="logoimg" src={slide.logo1} alt="" />
-                        </li>
-                        <li  >
-                          <img className="logoimgtwo" src={slide.logo2} alt="" />
-                        </li>
-                      
                        
-                      </ul>
-                      </div>
+
+                        <Button
+                          data-aos="fade-right"
+                          data-aos-duration="7000"
+                          className="home-button"
+                          to={"/contact"}
+                        >
+                          FREE DISCOVERY CALL
+                        </Button>
+                      </Content>
+                    </div>
+                  )}
+                  <div data-aos="fade-left pl-3" className="logosec">
+                    <ul>
+                      {" "}
+                      <li>
+                        <img className="logoimg" src={slide.logo3} alt="" />
+                      </li>
+                      <li>
+                        <img className="logoimgtwo" src={slide.logo4} alt="" />
+                      </li>
+                      <li>
+                        <img className="logoimgtwo" src={slide.logo2} alt="" />
+                      </li>
+                    </ul>
                   </div>
-                )}
-              </Slide>
+                </Slide>
+              </>
             );
           })}
           {/* <SliderButton>
@@ -219,11 +191,14 @@ function Home({ slides }) {
       <InfoSection {...InfoData} />
 
       {/* <AudioSection /> */}
-      <View data-aos="fade-up" />
+      <Stepper />
+      {/* <View data-aos="fade-up" /> */}
       <PriceSection />
       <Services data-aos="fade-up" />
       {/* <ClientReview/> */}
       {/* <Accordion /> */}
+
+      {/* <TimeLine/> */}
       <Contact data-aos="fade-up" />
     </>
   );

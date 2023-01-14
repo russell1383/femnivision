@@ -3,6 +3,8 @@
 import videoThree from './image/Famnivision.mp4'
 import logo1 from './image/rtt1.png'
 import logo2 from './image/rtt2.png'
+import logo3 from './image/rtt3.png'
+import logo4 from './image/rtt4.png'
 export const SliderData =[
 // {
 //    title:'love sees no gender',
@@ -29,7 +31,9 @@ export const SliderData =[
    video: videoThree,
    alt:'relax',
    logo1,
-   logo2
+   logo2,
+   logo3,
+   logo4
 },
 
 

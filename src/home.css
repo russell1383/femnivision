@@ -103,7 +103,8 @@
 .logosec{
   display: flex;
   align-items: flex-end;
-  padding-top: 35rem;;
+  padding-top: 35rem;
+  float: right;
 }
   .logosec ul{
     
@@ -114,7 +115,12 @@
     align-items: center;
     background: #eeeaee;
     border-radius: 5px;
+    margin: 2px;
+    margin-right: 20px;
 
+  }
+  .home-content{
+    padding-right: 300px;
   }
     
   .logosec li{
@@ -124,6 +130,7 @@
     align-items: flex-end;
     justify-content: space-between;
     margin-right: 20px;
+ 
  }
  
   
