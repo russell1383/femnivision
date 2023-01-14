@@ -15,13 +15,13 @@ const PriceSection = () => {
   return (
     <>
     <div data-aos="fade-up"   class="demo">
-    <div class="container">
+    <div class="container pt-5">
         <div class="row">
             <div class="col-md-3 col-sm-6">
                 <div  class="pricingTable">
                     <div class="pricingTable-header">
                     <i class="fa-solid fa-face-grin-beam"></i>
-                        <div class="price-value"> $10.00 <span class="month">per month</span> </div>
+                        <div class="price-value"> $397.00 <span class="month">per month</span> </div>
                     </div>
                     <h3 class="heading">Deep relaxation</h3>
                     <div class="pricing-content">
@@ -41,7 +41,7 @@ const PriceSection = () => {
                 <div class="pricingTable ">
                     <div class="pricingTable-header">
                     <i class="fa-solid fa-face-grimace"></i>
-                        <div class="price-value"> $20.00 <span class="month">per month</span> </div>
+                        <div class="price-value"> $797.00 <span class="month">per month</span> </div>
                     </div>
                     <h3 class="heading">Anxity and Stress</h3>
                     <div class="pricing-content">
@@ -59,7 +59,7 @@ const PriceSection = () => {
                 <div class="pricingTable ">
                     <div class="pricingTable-header">
                     <i class="fa-solid fa-face-tired"></i>
-                        <div class="price-value"> $30.00 <span class="month">per month</span> </div>
+                        <div class="price-value"> $1841.00 <span class="month">per month</span> </div>
                     </div>
                     <h3 class="heading">phobias and fears</h3>
                     <div class="pricing-content">

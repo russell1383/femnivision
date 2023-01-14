@@ -27,7 +27,7 @@ function Programs() {
   }, []);
   return (
     <>
-      <div data-aos="fade-left" className="container">
+      <div data-aos="fade-left" className="container pt-5">
         <div className="my-5">
           <h1 className="pt-5 text-center service-text-h"> Need a solution</h1>
           <p className="text-center service-text-p">Explore my programs</p>
