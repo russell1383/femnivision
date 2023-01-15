@@ -22,7 +22,7 @@ function Footer() {
         <div className="footerContainer">
           <div className="footerRow">
             <div data-aos="fade-up" className="footer-col">
-              <h4>Company</h4>
+            
               <ul>
                 <li>
                   <Link to={"/terms"}><a href="">t&c policy</a></Link>
@@ -35,9 +35,8 @@ function Footer() {
                   <a href="">privacy policy</a>
                 </li>
               </ul>
-            </div>
-            <div data-aos="fade-up" className="footer-col">
-              <h4>get help</h4>
+           
+          
               <ul>
                 <li>
                   <Link to={"/faq"}>
@@ -76,7 +75,7 @@ function Footer() {
            
           </div>
           <h5 className="reserved">© all rights reserved by Diane Bextor-femnivision.com 2023</h5>
-           <h5 className="rights">Design & Developed by  <a href="https://primex-bd.com/#home">Primex</a>  Information Systems Limited</h5>
+           <h5 className="rights">Design & Developed by  <a href="https://primex-bd.com/#home">Primex  Information Systems Limited</a></h5>
         </div>
       </footer>
     </>

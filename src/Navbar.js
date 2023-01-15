@@ -39,6 +39,7 @@ else{
   window.addEventListener('scroll', changeBackground)
   return (
     <>
+      <section>
       <div className="container-fluid nav_bg ">
         <div className="row">
           <div className="col-12 mx-auto">
@@ -112,7 +113,7 @@ else{
                     </li>
                     <li className="nav-item mr-2">
                       <NavLink className="nav-link" to="/appointment">
-                        Appoinment
+                        Appointment
                       </NavLink>
                     </li>
                     
@@ -129,6 +130,7 @@ else{
           </div>
         </div>
       </div>
+      </section>
     </>
   );
 }

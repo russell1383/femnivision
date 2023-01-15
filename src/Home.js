@@ -127,7 +127,7 @@ function Home({ slides }) {
                 <Slide key={index}>
                   {index === current && (
                     <div className="slider">
-                      {/* <Image src={slide.video} alt={slide.alt}  /> */}
+         
                       <video autoPlay loop muted className="video-back">
                         <source
                           src={slide.video}
@@ -181,10 +181,7 @@ function Home({ slides }) {
               </>
             );
           })}
-          {/* <SliderButton>
-            <PrevArrow onClick={prevSlide} />
-            <NextArrow onClick={nextSlide} />
-          </SliderButton> */}
+        
         </Wrapper>
       </section>
       <WelcomeNote {...InfoDataTwo} />

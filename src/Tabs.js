@@ -61,7 +61,13 @@ function Tabs() {
     </h2>
     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-      body - eating disturbance, body dissatisfaction, self-esteem, depression, history of being teased about physical appearance, frequency of appearance comparison, and importance of various individuals as appearance comparison targets.
+      What do you see when you look in the mirror?
+Do you see your body in a positive or negative way?
+Are you happy or sad with the way you look?
+Ugh, my hair looks horrible! I think I need to lose a
+little weight. My figure looks fabulous! These are all
+comments that we, as individuals, have said to ourselves
+at one point or another, and they all relate to body image.
       </div>
     </div>
   </div>
@@ -74,7 +80,14 @@ function Tabs() {
     </h2>
     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-Mental illness, also called mental health disorders, refers to a wide range of mental health conditions — disorders that affect your mood, thinking and behavior. Examples of mental illness include depression, anxiety disorders, schizophrenia, eating disorders and addictive behaviors these are the health issues
+      •Gastroesophageal reflux disease (GERD)
+•Diabetes risk, metabolic syndrome, and prediabetes
+•Type 2 diabetes
+•Asthma/reactive airway disease
+•Cardiovascular disease* and cardiovascular disease mortality
+•Hypertension
+•Polycystic ovary syndrome (PCOS)
+•Urinary stress incontinence
       </div>
     </div>
   </div>
@@ -88,9 +101,15 @@ Mental illness, also called mental health disorders, refers to a wide range of m
     </h2>
     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-      Although the term “eating” is in the name, eating disorders are about more than food. They’re complex mental health conditions that often require the intervention of medical and psychological experts to alter their course.
-
-These disorders are described in the American Psychiatric Association’s Diagnostic and Statistical Manual of Mental Disorders, fifth edition 
+      Common eating disorders include anorexia nervosa,
+bulimia nervosa, and binge-eating disorder. Anorexia
+nervosa is a condition where people avoid food, severely
+restrict food or eat very small quantities of only certain foods.
+Eating disorders are serious conditions that cause both physical
+and emotional damage. All eating disorders can lead to irreversible
+and even life-threatening health problems, such as heart disease,
+bone loss, stunted growth, infertility, and kidney damage. Many
+people worry about their weight, what they eat, and how they look. 
       </div>
     </div>
   </div>
@@ -113,7 +132,10 @@ These disorders are described in the American Psychiatric Association’s Diagno
     </h2>
     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora sit dolorum in! Dolore aliquid sed ea mollitia inventore debitis itaque culpa ratione, neque perspiciatis optio sunt omnis tempora dolor fugit!
+      The state of being connected by blood, marriage or adoption. Maintaining
+a strong relationship requires constant care and communication, and
+certain traits have been shown to be especially important for fostering
+healthy relationships.
       </div>
     </div>
   </div>
@@ -122,12 +144,16 @@ These disorders are described in the American Psychiatric Association’s Diagno
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
      
       <BiDonateHeart className="accoricon"/>
-       Care
+       Career
       </button>
     </h2>
     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora sit dolorum in! Dolore aliquid sed ea mollitia inventore debitis itaque culpa ratione, neque perspiciatis optio sunt omnis tempora dolor fugit!
+      Positive relationships in the workplace are an integral part of career success.
+When building relationships in the workplace, you will notice an increase in
+productivity and overall job satisfaction. You can build lasting, professional
+relationships by taking certain steps toward understanding your emotional
+intelligence and getting to know your coworkers.
       </div>
     </div>
   </div>
@@ -142,7 +168,16 @@ These disorders are described in the American Psychiatric Association’s Diagno
     </h2>
     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora sit dolorum in! Dolore aliquid sed ea mollitia inventore debitis itaque culpa ratione, neque perspiciatis optio sunt omnis tempora dolor fugit!
+      Love is one of the most profound emotions known to human beings. There
+are many kinds of love, but many people seek its expression in a romantic
+relationship with a compatible partner (or partners). For these individuals,
+romantic relationships comprise one of the most meaningful aspects of life,
+and are a source of deep fulfillment. While need for human connection
+appears to be innate, the ability to form healthy, loving relationships is
+learned. Some evidence suggests that the ability to form a stable relationship
+starts to form in infancy, in a child&#39;s earliest experiences with a caregiver who
+reliably meets the infant&#39;s needs for food, care, warmth, protection, stimulation,
+and social contact.
       </div>
     </div>
   </div>
@@ -164,7 +199,14 @@ These disorders are described in the American Psychiatric Association’s Diagno
     </h2>
     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-      A fear and phobia is an anxiety disorder defined by a persistent and excessive fear of an object or situation. Phobias typically result in a rapid onset of fear and are usually present for more than six months.
+      The first thing to note is the fact that ‘fear’ and ‘phobia’ are not the
+same things. They are two completely different things though they are
+similar and interconnected, using them interchangeably is still incorrect.
+Fear is a common feeling experienced by everyone. Phobia is a form of
+anxiety disorder, which refers to excessive and persistent fear of objects
+and situations which do not carry real threats; Specificity. Fear can be felt
+by anyone when faced with an unknown or dangerous situation. Phobia
+will cause irrational fear that will consume most of most of your time and energy.
       </div>
     </div>
   </div>
@@ -177,7 +219,13 @@ These disorders are described in the American Psychiatric Association’s Diagno
     </h2>
     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-      A panic attack is a feeling of sudden and intense anxiety. Panic attacks can also have physical symptoms, including: shaking. feeling disorientated. nausea.
+      Panic attacks are classified into three basic types: Spontaneous or uncued
+panic attacks occur without warning or “out of the blue.” No situational or
+environmental triggers are associated with the attack. In any given year,
+up to 3 percent of American adults experience panic disorders. Panic disorders
+can happen to anyone, and there doesn’t seem to be any particular group that’s
+immune to it. Most people first start to experience panic attack symptoms in their
+20s, but they can also happen to children.
       </div>
     </div>
   </div>
@@ -191,7 +239,17 @@ These disorders are described in the American Psychiatric Association’s Diagno
     </h2>
     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-      Stress can be defined as any type of change that causes physical, emotional or psychological strain. Stress is your body's response to anything that requires attention or action. Everyone experiences stress to some degree. The way you respond to stress, however, makes a big difference to your overall well-being.
+      Stress is a biological reaction that all of us can experience at any age.
+
+National Institutes of Mental Health (NIMH) define it as “how the brain
+and body respond to any demand.” Stress can be routine, brought on
+by sudden negative change or Ttauma experienced during an event
+such as an accident, war or a natural disaster. According to Harvard
+Health, as we get older, stress can come “as a result of managing chronic
+illness, losing a spouse, being a caregiver, or adjusting to changes due to
+finances, retirement, or separation from friends and family.” Some people
+are able to cope with stress and recover better than others, but long-term
+stress can be difficult to manage and it could be harmful to your health.
       </div>
     </div>
   </div>
