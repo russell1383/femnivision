@@ -87,13 +87,30 @@
         padding: 5px;
         margin: 5px;
     }
+    .c-stepper__title{
+        font-size: 15px;
+        width: 70px;
+        height: 70px;
+        line-height: 68px;
+    }
     .c-stepper__package-desc{
         margin-top: 5px;
         margin-bottom: 1rem;
-        font-size: 10px;
+        font-size: 12px;
         padding-right: 1rem;
     }
     .c-stepper__item{
         margin: 10px;
+    }
+    .c-stepper__item:before {
+        --size: 4rem;
+        content: "";
+        position: relative;
+        cursor: pointer;
+        z-index: 1;
+        flex: 0 0 var(--size);
+        height: var(--size);
+        border-radius: 50%;
+        background-color: lightgrey;
     }
   }

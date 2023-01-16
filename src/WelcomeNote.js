@@ -39,7 +39,7 @@ useEffect(()=>{
   return (
     <section data-aos="fade-up"  className="section-info welcome">
       <div className="row">
-      <div className="col-md-5">
+      <div className="col-md-5 pr-2">
           <img src={image} alt="" className="img-fluid" />
         </div>
         <div className="col-md-7">

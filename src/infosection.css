@@ -133,4 +133,9 @@ span{
     .section-info{
         margin-top: 10rem;
     }
+
+    .welcome{
+    padding: 0.1rem !important;
+    margin: 2px;
+}
 }
