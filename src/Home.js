@@ -23,7 +23,7 @@ import Stepper from "./Stepper";
 // import TimeLine from "./TimeLine";
 const Wrapper = styled.div`
   width: 100%;
-  height: 100vh;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,7 +33,8 @@ const Wrapper = styled.div`
 const Slide = styled.div`
   z-index: 1;
   width: 100%;
-  height: 100vh;
+ 
+  
 `;
 // const Image = styled.video`
 //   position: absolute;
@@ -47,7 +48,8 @@ const Slide = styled.div`
 const Content = styled.div`
   position: relative;
   z-index: 10;
-  margin-top: 155px;
+  margin-top: 280px;
+ 
 `;
 const SliderButton = styled.div`
   position: absolute;
