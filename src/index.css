@@ -22,6 +22,7 @@ body {
 }
 #header h2{
   /* background: #540553  ; */
+  font-size: 3.5rem;
   border-radius: 5px;
   margin-right: 15rem;
     padding-left: 10px;
@@ -34,7 +35,6 @@ body {
   font-weight: 700;
   border-radius: 5px !important;
   z-index: 5;
-
   color: #b97fb8;
   font-size: 3.5rem;
   visibility: visible;
@@ -599,12 +599,7 @@ section {
   .footer-follow {
     width: 100%;
   }
-  .homePage-title {
-    font-size: 2rem;
-    width: auto;
-    margin-bottom: -0.8rem;
-    margin-top: -60px;
-  }
+
   .menu-line-height {
     line-height: 6px;
     background-color: #e3e2e2;

@@ -139,14 +139,14 @@ function Home({ slides }) {
                         <h2
                           data-aos="fade-up"
                           data-aos-duration="2000"
-                          className="homePage-title common"
+                          className="homePage-title"
                         >
                           FREE YOURSELF FROM
                         </h2>
                         <h1
                           data-aos="fade-up"
                           data-aos-duration="3000"
-                          className="homePage-title common"
+                          className="homePage-title"
                         >
                           LIMITING BELIEFS WITH DIANE
                         </h1>
@@ -163,7 +163,7 @@ function Home({ slides }) {
                       </Content>
                     </div>
                   )}
-                  <div data-aos="fade-left pl-3" className="logosec">
+                  <div data-aos="fade-left " className="logosec">
                     <ul>
                       {" "}
                       <li>
